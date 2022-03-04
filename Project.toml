@@ -3,6 +3,9 @@ uuid = "895ad2d6-3e07-4d64-b171-09bf5b9500d8"
 authors = ["Henrik Foss Jørgensen"]
 version = "0.1.0"
 
+[deps]
+Suppressor = "fd094767-a336-5f1f-9728-57cf17d0bbfb"
+
 [compat]
 julia = "1"
 

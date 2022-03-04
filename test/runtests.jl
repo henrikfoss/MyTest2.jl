@@ -1,6 +1,7 @@
-using MyTest2
 using Test
+using MyTest2
+## activate C:\Users\henri\Juliawin\userdata\.julia\dev\MyTest2
 
 @testset "MyTest2.jl" begin
-    # Write your tests here.
+    @test Add_two_numbers(2,2) == 4
 end
